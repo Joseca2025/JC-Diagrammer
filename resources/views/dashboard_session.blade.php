@@ -50,10 +50,14 @@
             </div>
             <div class="md:w-8/12 lg:w-6/12 px-5">
                 <p class="text-gray-700 text-2xl">{{ auth()->user()->name }}</p>
-                <button class="bg-blue-200 text-blue-800 font-bold px-4 py-2 rounded-full mt-4">Iniciar una reunión</button>
+                <button class="bg-blue-200 text-blue-800 font-bold px-4 py-2 rounded-full mt-4">
+                    <a href="{{ route('pizarra') }}" class="text-blue-800 text-decoration-none">Iniciar reunion</a>
+                </button>
                 <div class="mt-4">
                     <input type="text" class="w-full p-2 border border-gray-300 rounded-full" placeholder="Ingresar código">
-                    <button class="bg-blue-200 text-blue-800 font-bold px-4 py-2 rounded-full mt-2">Ingresar</button>
+                    <button class="bg-blue-200 text-blue-800 font-bold px-4 py-2 rounded-full mt-2">
+                        <a href="{{ route('pizarra') }}" class="text-blue-800 text-decoration-none">Ingresar</a>
+                    </button>
                 </div>
             </div>
         </div>

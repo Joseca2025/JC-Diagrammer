@@ -1,0 +1,6 @@
+canvas {
+    width: 200px; /* Ancho del rectángulo */
+    height: 100px; /* Altura del rectángulo */
+    background-color: #00f; /* Color de fondo del rectángulo (azul en este ejemplo) */
+    margin-left: 20px; /* Espacio a la izquierda del rectángulo */
+  }

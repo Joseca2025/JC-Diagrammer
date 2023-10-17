@@ -1,0 +1,26 @@
+/* Estilo del lienzo */
+canvas {
+  border: 2px solid #393939;
+  background-color: rgba(255, 255, 255, 0.5); 
+  transform: scale(0.9);
+  z-index: -1;
+  width: 100%;
+}
+
+/* Estilo del rectángulo */
+.rectangulo {
+  border: 2px solid #393939;
+  width: 250px; /* Ancho del rectángulo */
+  height: 400px; /* Altura del rectángulo */
+  background-color: rgb(197, 191, 212); /* Color de fondo del rectángulo (azul en este ejemplo) */
+  margin-left: 50px; /* Margen izquierdo de 20px para separar del borde de la pantalla */
+  margin-right: 100px; /* Margen derecho de 20px para separar del borde de la pantalla */
+  /* Otros estilos, como bordes, sombras, etc. */
+}
+
+
+/* Estilo del contenedor flexible */
+.contenedor {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos en el contenedor */
+}

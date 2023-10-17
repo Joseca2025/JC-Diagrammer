@@ -30,3 +30,8 @@ Route::post('/logout',[LogoutController::class,'store'])->name('logout');
 
 
 Route::get('/muro',[PostController::class,'index'])->name('posts.index');
+
+
+Route::view('/pizarra', 'pizarra')->name('pizarra');
+
+Route::post('/send-message', 'ChatController@sendMessage');
